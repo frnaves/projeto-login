@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* Paleta de Cores
+
+#DDDFDF
+#DDDDDF
+#D0C4DF
+#DCABDF
+#C792DF
+*/
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #C792DF;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;    
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: white;
+    width: 350px;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.616);
+}
+
+section#login > div#imagem{
+    display: block;
+    background: #DCABDF url(../imagens/login-mobile.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
